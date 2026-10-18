@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="How I combine Obsidian, context files, ChatGPT, Codex, Notion, and my calendar for university.">
+    <meta name="theme-color" content="#f7f8fb">
+    <meta property="og:title" content="Building a second brain for university">
+    <meta property="og:description" content="A practical look at my AI-assisted academic workflow.">
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2026-10-18">
+    <title>Building a second brain for university | thauts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,500;7..72,650&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <script src="../../assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="reading-progress" aria-hidden="true"></div>
+    <header class="site-header shell">
+      <a class="wordmark" href="../../" aria-label="thauts home">thauts<span>.</span></a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="../../#writing">Writing</a>
+        <a href="../../about/">About</a>
+        <button class="theme-toggle" type="button" aria-label="Switch color theme"><span aria-hidden="true">◐</span></button>
+      </nav>
+    </header>
+
+    <main>
+      <header class="article-hero">
+        <div class="article-hero-inner shell">
+          <p class="kicker">University systems</p>
+          <h1>Building a second brain for university</h1>
+          <p class="article-deck">How I combine Obsidian, context files, ChatGPT, Codex, Notion, and my calendar without turning productivity into a second degree.</p>
+          <div class="article-meta"><span>By Aleks</span><time datetime="2026-10-18">18 October 2026</time><span>6 min read</span></div>
+        </div>
+      </header>
+
+      <div class="article-layout shell">
+        <aside class="article-nav" aria-label="Article sections">
+          <strong>In this essay</strong>
+          <a href="#one-home">One home for knowledge</a>
+          <a href="#context">Folders with context</a>
+          <a href="#two-ais">Two AIs, two jobs</a>
+          <a href="#action">Knowledge into action</a>
+          <a href="#semester">A normal assignment</a>
+          <a href="#limits">What it cannot do</a>
+          <a href="#extended">Full version</a>
+        </aside>
+
+        <article class="article-body">
+          <p>University creates a strange information problem. I have lecture slides, notes, papers, assignments, code, deadlines, and half-finished ideas spread across a semester. The hard part is rarely collecting more. It is finding the right piece again, seeing how it connects to something I learned months ago, and putting it to work.</p>
+
+          <p>My answer is a small collection of tools with clear jobs. Obsidian holds the knowledge. Notion tracks the work. My calendar reserves the time. ChatGPT helps me reason through problems, while Codex works directly with files and code. A simple folder architecture gives the whole setup enough context to remain understandable to me and to AI.</p>
+
+          <blockquote>The system works because each tool has a job, and because the underlying information stays portable.</blockquote>
+
+          <h2 id="one-home">One home for what I learn</h2>
+
+          <p>Obsidian sits at the center. It stores notes as ordinary Markdown files on my computer, so the material is not trapped inside a proprietary database. I can read it in Obsidian, edit it in another app, process it with a script, or let an AI assistant inspect a relevant folder.</p>
+
+          <p>Links are the other reason it works. Opportunity cost may begin in a microeconomics lecture, but it can later connect to behavioral economics, public policy, or a research idea. Those links keep concepts alive after the exam instead of leaving them buried in an old course folder.</p>
+
+          <p>This is what “second brain” means in practice for me. It is not a perfect digital copy of my mind. It is a dependable place where useful material can accumulate without becoming impossible to retrieve.</p>
+
+          <h2 id="context">Folders that explain themselves</h2>
+
+          <p>A pile of linked notes can still become a mess. I use an ICM-style structure that groups information into clear contexts. Each course has a workspace for lectures, assignments, notes, and reference material. The exact layout changes when a course needs something different, but the logic remains predictable.</p>
+
+<pre><code>Uni/
+├── courses/
+│   ├── Econometrics/
+│   │   ├── CONTEXT.md
+│   │   ├── Lectures/
+│   │   ├── Assignments/
+│   │   └── Notes/
+│   └── ...
+├── reference/
+└── Thesis/</code></pre>
+
+          <p>The useful part is <code>CONTEXT.md</code>. It is a short guide to a folder: what belongs there, how it is organized, what matters now, and where related material lives. I can open it after weeks away and get my bearings. An AI assistant can do the same before touching the rest of the workspace.</p>
+
+          <p>That reduces a lot of repeated explanation. Instead of feeding an assistant my entire university setup, I can point it to one course. It reads the local context, finds the relevant lecture or assignment, and ignores everything else.</p>
+
+          <h2 id="two-ais">Two AIs, two different jobs</h2>
+
+          <p>I use ChatGPT and Codex differently. ChatGPT is the conversational side of the workflow. I use it to unpack difficult economic models, test my understanding, plan an assignment, or discuss a paper. When I provide the relevant lecture material, it can follow the notation and methods used in my course instead of giving a generic explanation.</p>
+
+          <p>Codex is useful when the task lives in files. It can inspect an R project, debug Python, tidy Markdown, or check the structure of a course workspace. I do not have to paste each file into a chat because the assistant works in the same project directory.</p>
+
+          <p>Neither tool gets unlimited access. I keep the scope tied to the task and review meaningful changes. The gain is context, not autonomy for its own sake.</p>
+
+          <div class="system-flow" aria-label="The workflow from knowledge to scheduled work">
+            <span>Obsidian<br>knowledge</span><span>Context files<br>navigation</span><span>AI<br>reasoning and work</span><span>Notion<br>commitments</span><span>Calendar<br>time</span>
+          </div>
+
+          <h2 id="action">Turning knowledge into action</h2>
+
+          <p>I keep planning outside Obsidian. Notion holds the semester view: courses, deadlines, project status, and the next concrete task. The calendar turns those commitments into study sessions. This split keeps administrative noise out of my notes while making sure good intentions receive actual time.</p>
+
+          <table class="tool-table">
+            <thead><tr><th>Tool</th><th>Job</th></tr></thead>
+            <tbody>
+              <tr><td>Obsidian</td><td>Notes, research, course material, and durable knowledge</td></tr>
+              <tr><td>Notion</td><td>Assignments, deadlines, and project status</td></tr>
+              <tr><td>Calendar</td><td>Lectures, meetings, and protected study time</td></tr>
+              <tr><td>ChatGPT</td><td>Explanation, tutoring, planning, and discussion</td></tr>
+              <tr><td>Codex</td><td>Files, code, automation, and workspace maintenance</td></tr>
+            </tbody>
+          </table>
+
+          <h2 id="semester">What a normal assignment looks like</h2>
+
+          <p>Suppose I have an econometrics assignment. I begin in its course folder, where the brief, lectures, and my notes already live. If the theory is unclear, I work through it with ChatGPT using the lecture material. If the assignment requires R or Python, Codex can inspect the project, help trace an error, or review the finished analysis.</p>
+
+          <p>Notion tells me the deadline and the next step. The calendar tells me when I will do it. Once the assignment is finished, useful explanations and code remain with the course. During exam preparation, I return to work I already understand rather than starting again from the original slide deck.</p>
+
+          <p>That accumulation is the real benefit. A method from one semester can support a thesis later. Notes from an introductory course can clarify an advanced one. The vault slowly becomes a reference library shaped by the work I have actually done.</p>
+
+          <h2 id="limits">What the system cannot do</h2>
+
+          <p>Organized notes are not understanding. An AI explanation is not proof that I could reproduce the reasoning in an exam. I still need to solve exercises alone, recall concepts without prompts, and check answers against reliable course material.</p>
+
+          <p>There is also a very ordinary risk: spending more time refining the system than studying. I try to add structure only when a recurring problem earns it. A second brain should remove friction. The moment it becomes a hobby disguised as work, it has missed the point.</p>
+
+          <p>I think of the result as a personal academic operating system. That phrase sounds grander than the setup is. The value comes from ordinary files, clear responsibilities, and enough context for both a person and an assistant to find their way around.</p>
+
+          <details class="extended" id="extended">
+            <summary>Read the full, extended version <span aria-hidden="true">+</span></summary>
+            <div class="extended-content">
+              <h2>My second brain: how I use Obsidian, AI, and Notion to manage university</h2>
+              <p>University involves managing a surprising amount of information. Between lectures, assignments, research papers, exams, and personal projects, it is easy to end up with dozens of folders, hundreds of documents, and information scattered across different applications.</p>
+              <p>The standard approach is simple: download lecture slides, organize them into folders, take notes, and search through everything when exams approach. I wanted those materials to work as a connected knowledge base, with AI able to use that knowledge instead of starting from scratch every time.</p>
+              <p>As an economics student at the University of St. Gallen, I have developed a workflow that combines Obsidian, ChatGPT, Codex, Notion, and my calendar. The underlying idea is often called a second brain: an external system that helps organize information, retrieve knowledge, and manage ongoing work. I have structured mine to work for both myself and AI.</p>
+
+              <h2>1. Obsidian is the foundation</h2>
+              <p>At the center of my setup is <a href="https://obsidian.md/">Obsidian</a>, a note-taking application that stores information in local Markdown files. My notes are files on my computer, organized into folders that I control.</p>
+              <p>This has a few practical advantages. Everything remains accessible outside Obsidian. I can open notes in another editor, use them in other applications, or process them with Python. Internal links connect related ideas, so a concept from microeconomics can also point to material in macroeconomics, data analytics, or an academic paper. AI tools can read and work with the same files I use.</p>
+              <p>The result is a system where notes do more than sit in storage. They can support future work.</p>
+
+              <h2>2. ICM architecture gives everything context</h2>
+              <p>Knowledge management can easily become a task in itself. It is possible to spend more time designing folders and maintaining dashboards than studying. I use an architecture based on ICM principles, where information sits inside clearly defined contexts.</p>
+              <p>My Obsidian vault has a university workspace with individual courses, semester information, and research projects. Some courses follow lecture weeks. Others need separate areas for literature, seminars, and assignments. The goal is not one rigid template. It is a predictable structure for each course.</p>
+
+<pre><code>Obsidian Vault/
+└── Uni/
+    ├── courses/
+    │   ├── Course A/
+    │   │   ├── CONTEXT.md
+    │   │   ├── Lectures/
+    │   │   ├── Assignments/
+    │   │   └── Notes/
+    │   └── Course B/
+    ├── reference/
+    │   ├── Semester Overview
+    │   ├── Schedule
+    │   └── Study Planning
+    └── Thesis/</code></pre>
+
+              <h3>The role of CONTEXT.md</h3>
+              <p>One of the most useful parts of this architecture is the <code>CONTEXT.md</code> file. It is a short introduction to a workspace, written for humans and AI. It explains what a folder contains, how the material is organized, which files matter, and where to find more information.</p>
+              <p>When an AI assistant accesses my microeconomics folder, it should not need to read every document before understanding the course. It can read the context file, identify the relevant lecture or assignment, and retrieve only what the task needs.</p>
+              <p>This turns a conventional folder structure into something AI can navigate. It also means I do not have to explain my university setup again in every conversation.</p>
+
+              <h2>3. ChatGPT and Codex have different roles</h2>
+              <p>The biggest improvement to my workflow has come from connecting AI to my existing academic material. I do not use every AI tool for the same purpose.</p>
+
+              <h3>ChatGPT is my academic assistant</h3>
+              <p>I use ChatGPT for work that requires reasoning, explanation, or planning. That includes difficult economic concepts, mathematical exercises, assignment reviews, and exam preparation.</p>
+              <p>Instead of asking for a generic explanation, I can provide lecture material and ask it to follow my professor's terminology, notation, and methods. The difference matters. A general explanation can be correct and still feel disconnected from the way a course teaches the model.</p>
+              <p>I also use ChatGPT for academic writing, research discussions, and breaking large assignments into manageable steps.</p>
+
+              <h3>Codex works directly with my files</h3>
+              <p>Codex is most useful when a task involves the local workspace. Because the Obsidian vault consists of ordinary files, a coding agent with access to the relevant folders can inspect, organize, and modify them.</p>
+              <p>I can use it to review the vault's structure, find inconsistencies, improve navigation, or maintain Markdown documents. The same applies to programming projects in Python, R, LaTeX, and GitHub repositories. I can work with an assistant inside the project instead of copying documents into a conversation one by one.</p>
+              <p>Access stays limited to what the task requires, and I review important changes. The advantage is simple: AI can work in the existing environment instead of asking me to reconstruct it.</p>
+
+              <h2>4. Notion and calendar turn knowledge into action</h2>
+              <p>Obsidian is the base for academic knowledge, but it is not my tool for everything. I separate knowledge management from operational planning.</p>
+              <p>Obsidian stores what I know. Notion tracks what I need to do. My calendar determines when I do it.</p>
+              <p>Notion gives me a structured view of the semester, with courses, assignments, deadlines, and projects. I can see what is approaching and track progress on larger pieces of work. The calendar then turns those responsibilities into study sessions.</p>
+              <p>This keeps the vault from filling with administrative noise while leaving the planning connected to the underlying course material. ChatGPT can help prioritize work, estimate workloads, and draft a realistic study plan.</p>
+
+              <h2>5. A normal semester workflow</h2>
+              <p>Consider a typical econometrics assignment. I start in the course folder, where the lecture materials, notes, and assignment instructions are organized. If a concept is difficult, I work through it with ChatGPT using the relevant lecture as a reference. If the assignment requires R or Python, Codex can inspect code, debug errors, or review the project structure.</p>
+              <p>Notion tracks the deadline and completion status. My calendar contains the study sessions allocated to it. Once the assignment is complete, useful explanations, code, and conceptual insights remain in the academic workspace.</p>
+              <p>When exam preparation begins, I return to those materials instead of starting again from the lecture slides. The workflow is not only about finishing an assignment. It makes the work done during the semester useful later.</p>
+
+              <h2>6. The system becomes more useful over time</h2>
+              <p>In a conventional workflow, each semester can feel independent. You complete courses, pass exams, and move on. Much of the knowledge stays buried in old folders.</p>
+              <p>A second brain creates continuity. Concepts from introductory economics can connect to advanced courses. Statistical methods learned in one semester can become references for later research. The same applies to programming workflows, writing techniques, and research methods.</p>
+              <p>Over time, the vault becomes a personal academic reference library that reflects what I have studied and built. When notes and sources are available, an AI assistant does not have to rely on general knowledge or an incomplete memory of an earlier conversation. It can retrieve information for the current task. That does not guarantee a correct answer, but it gives the answer a stronger and more verifiable basis.</p>
+
+              <h2>7. A second brain does not replace learning</h2>
+              <p>There is a difference between organizing knowledge and understanding it. Perfectly structured lecture notes do not mean I have mastered the material. An AI solution does not mean I could reproduce it during an exam.</p>
+              <p>Traditional learning methods still matter. I need to work through exercises without assistance, test my understanding, review mistakes, and recall information actively. AI works best when it supports those activities.</p>
+              <p>Overengineering is another risk. I could spend hours adjusting plugins, automating workflows, or redesigning dashboards. My rule is to add structure only when it solves a real problem. A second brain should reduce the effort of studying, not become another subject to study.</p>
+
+              <h2>8. A personal academic operating system</h2>
+              <p>The most useful description of my setup is a personal academic operating system. Several specialized tools connect through one consistent workflow. Obsidian provides the knowledge base. ICM-style organization makes it navigable. Notion manages responsibilities. The calendar turns plans into time commitments. ChatGPT and Codex help me work with the information and maintain the system.</p>
+              <p>No single application is the interesting part. The benefit comes from combining them so information stays accessible, work remains visible, and AI receives meaningful context.</p>
+              <p>For me, that is what a second brain should do: spend less time managing information and more time actually learning.</p>
+            </div>
+          </details>
+
+          <div class="sources">
+            <p>Further reading: <a href="https://marvinvr.ch/posts/2023-11-22-building-my-second-brain-with-obsidian">Building My Second Brain with Obsidian</a>, <a href="https://notesmakr.com/blog/how-to-use-obsidian-for-studying">How to Use Obsidian for Studying</a>, and <a href="https://theaiarchitects.com/blog/obsidian-second-brain">How to Build a Second Brain in Obsidian</a>.</p>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer shell"><p>Made in Switzerland, one note at a time.</p><p>© <span data-year></span> Aleks</p></footer>
+  </body>
+</html>
