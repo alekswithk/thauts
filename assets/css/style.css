@@ -48,7 +48,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
   border-bottom: 1px solid var(--line);
 }
 .wordmark { font-family: var(--serif); font-size: 1.55rem; font-weight: 650; text-decoration: none; letter-spacing: -.04em; }
-.wordmark-phonetic { color: var(--muted); font-family: var(--sans); font-size: .42em; font-weight: 500; letter-spacing: .02em; }
+.wordmark span { color: var(--blue); }
 .site-nav { display: flex; align-items: center; gap: 28px; font-size: .9rem; font-weight: 600; }
 .site-nav a { text-decoration: none; }
 .site-nav a:hover, .site-nav a[aria-current="page"] { color: var(--blue); }
