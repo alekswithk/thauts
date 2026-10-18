@@ -1,4 +1,4 @@
-# thauts
+# þaut
 
 A small, dependency-free blog published with GitHub Pages.
 
